@@ -5,10 +5,6 @@ require 'rails'
 require 'test/unit'
 require 'mocha'
 
-if RUBY_VERSION >= '1.9.3'
-  require 'debugger'
-end
-
 require 'rails/engine'
 
 module TestApp
